@@ -8,9 +8,5 @@ public class StudentRegistrationApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentRegistrationApplication.class, args);
-	//ApplicationContext context =	SpringApplication.run(StudentRegistrationApplication.class, args);
-	
-	/*UserRespositoryTest test = context.getBean(UserRespositoryTest.class);
-	System.out.println(test.findOneByFirstName("Naresh").getId());*/
 	}
 }
